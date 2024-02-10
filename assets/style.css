@@ -1,0 +1,38 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: aquamarine;
+  font-family: "Protest Riot", sans-serif;
+}
+
+header > div{
+  background: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 120px;
+}
+
+ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 1,5rem;
+}
+ul li a:hover{
+  color: blue;
+}
